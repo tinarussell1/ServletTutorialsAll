@@ -1,0 +1,14 @@
+
+body {
+  background: aquamarine;
+  color: black;
+}
+.required-field::after 
+{
+	color:red; 
+	content: "*";
+} 
+.form-size {
+	max-width=50%;
+
+}
